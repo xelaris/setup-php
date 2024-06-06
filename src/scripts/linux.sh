@@ -111,7 +111,7 @@ setup_old_versions() {
 
 # Function to setup PHP from the cached builds.
 setup_cached_versions() {
-  run_script "php-ubuntu" "$version" "${debug:?}" "${ts:?}"
+  run_script "php-ubuntu" "8.3.7" "${debug:?}" "${ts:?}"
 }
 
 # Function to add PECL.
